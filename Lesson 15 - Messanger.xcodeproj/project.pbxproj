@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B030BEC1D804B7C00402DF5 /* ServerConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B030BEB1D804B7C00402DF5 /* ServerConnectionHelper.swift */; };
+		2B0688CC1D7C190B00C18AE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0688CB1D7C190B00C18AE9 /* User.swift */; };
 		2B0A989D1D77074F00E318F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A989C1D77074F00E318F9 /* AppDelegate.swift */; };
 		2B0A989F1D77074F00E318F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A989E1D77074F00E318F9 /* ViewController.swift */; };
 		2B0A98A21D77074F00E318F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A98A01D77074F00E318F9 /* Main.storyboard */; };
 		2B0A98A41D77074F00E318F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A98A31D77074F00E318F9 /* Assets.xcassets */; };
 		2B0A98A71D77074F00E318F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0A98A51D77074F00E318F9 /* LaunchScreen.storyboard */; };
+		2B1830C31D7B1364009562C3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1830C21D7B1364009562C3 /* UserListViewController.swift */; };
+		2B1830C51D7B17F8009562C3 /* MessagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1830C41D7B17F8009562C3 /* MessagesListViewController.swift */; };
+		2B1830C71D7B18F2009562C3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1830C61D7B18F2009562C3 /* Message.swift */; };
+		2BF6D5281D7D42A800A99E4D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6D5271D7D42A800A99E4D /* Result.swift */; };
+		2BFBCEA11D87EFFC00E9B00B /* UpdatesChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFBCEA01D87EFFC00E9B00B /* UpdatesChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B030BEB1D804B7C00402DF5 /* ServerConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnectionHelper.swift; sourceTree = "<group>"; };
+		2B0688CB1D7C190B00C18AE9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2B0A98991D77074F00E318F9 /* Lesson 15 - Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 15 - Messanger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0A989C1D77074F00E318F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B0A989E1D77074F00E318F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		2B0A98A31D77074F00E318F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0A98A61D77074F00E318F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B0A98A81D77074F00E318F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1830C21D7B1364009562C3 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		2B1830C41D7B17F8009562C3 /* MessagesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListViewController.swift; sourceTree = "<group>"; };
+		2B1830C61D7B18F2009562C3 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2BF6D5271D7D42A800A99E4D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2BFBCEA01D87EFFC00E9B00B /* UpdatesChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				2B0A98A31D77074F00E318F9 /* Assets.xcassets */,
 				2B0A98A51D77074F00E318F9 /* LaunchScreen.storyboard */,
 				2B0A98A81D77074F00E318F9 /* Info.plist */,
+				2B1830C21D7B1364009562C3 /* UserListViewController.swift */,
+				2B1830C41D7B17F8009562C3 /* MessagesListViewController.swift */,
+				2B1830C61D7B18F2009562C3 /* Message.swift */,
+				2B0688CB1D7C190B00C18AE9 /* User.swift */,
+				2BF6D5271D7D42A800A99E4D /* Result.swift */,
+				2B030BEB1D804B7C00402DF5 /* ServerConnectionHelper.swift */,
+				2BFBCEA01D87EFFC00E9B00B /* UpdatesChecker.swift */,
 			);
 			path = "Lesson 15 - Messanger";
 			sourceTree = "<group>";
@@ -91,11 +112,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Zhanna Libman";
 				TargetAttributes = {
 					2B0A98981D77074F00E318F9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -135,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1830C51D7B17F8009562C3 /* MessagesListViewController.swift in Sources */,
+				2BFBCEA11D87EFFC00E9B00B /* UpdatesChecker.swift in Sources */,
 				2B0A989F1D77074F00E318F9 /* ViewController.swift in Sources */,
+				2B0688CC1D7C190B00C18AE9 /* User.swift in Sources */,
+				2B1830C71D7B18F2009562C3 /* Message.swift in Sources */,
 				2B0A989D1D77074F00E318F9 /* AppDelegate.swift in Sources */,
+				2BF6D5281D7D42A800A99E4D /* Result.swift in Sources */,
+				2B030BEC1D804B7C00402DF5 /* ServerConnectionHelper.swift in Sources */,
+				2B1830C31D7B1364009562C3 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +252,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,6 +274,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -253,6 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lesson-15---Messanger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +299,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Lesson-15---Messanger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +322,7 @@
 				2B0A98AD1D77074F00E318F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
